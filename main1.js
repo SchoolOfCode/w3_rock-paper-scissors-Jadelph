@@ -64,44 +64,62 @@ function cWin() {
     pLose++;
     totalGames++;
 }
+cWin()
+console.log(pScore + cScore)
+
 
 function draw() {
     pDraw++;
     cDraw++;
 }
-
+draw()
+console.log(pScore + cScore)
 
 
 
 if (cChoice === "rock" && pChoice === "paper") {
     pWin();
     console.log("You Win!");
+
 }
 if (cChoice === "rock" && pChoice === "scissors") {
     cWin();
     console.log("Computer Wins!")
+
 }
+if (cChoice === "rock" && pChoice === "rock") {
+    draw();
+    console.log("ITS A DRAW")
+
+}
+
 if (cChoice === "paper" && pChoice === "paper") {
     draw();
     console.log("ITS A DRAW")
+
 }
 if (cChoice === "paper" && pChoice === "rock") {
     cWin();
     console.log("Computer Wins!")
+
 }
 if (cChoice === "paper" && pChoice === "scissors") {
     pWin();
     console.log("You Win!")
+
 }
 if (cChoice === "scissors" && pChoice === "scissors") {
     draw();
     console.log("ITS A DRAW")
+
 }
 if (cChoice === "scissors" && pChoice === "paper") {
     cWin();
     console.log("Computer Wins!")
+
 }
 if (cChoice === "scissors" && pChoice === "rock") {
     pWin();
     console.log("You Win!")
+
 }
