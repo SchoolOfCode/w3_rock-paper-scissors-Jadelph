@@ -12,7 +12,7 @@ let cLose = 0;
 let pDraw = 0;
 let cDraw = 0;
 
-let nextRound = true
+let nextRound
 
 let i;
 let totalGames = 0;
@@ -21,24 +21,21 @@ cMoveArray = ["rock", "paper", "scissors"];
 if (startGame == true) {
     alert("Lets gooo🎉 ");
 
-    pChoice = prompt("Please enter your choice rock, paper, scissors");
-
-
-
-    //p stands for player
-    // c stands for computer 
-
-
-
+    pChoice = prompt("Please enter your choice rock, paper, scissors")
 } else if (startGame == false) {
     alert("Nevermind Come back soon");
 }
 
 
 while (nextRound === true) {
-
-    prompt("Please enter your choice rock,paper, scissors")
+    let cMove;
+    let pMove = prompt("Your move !! Enter rock, paper or scissors");
+    let pScore = 0;
+    let cScore = 0;
 }
+
+
+
 
 
 
@@ -84,7 +81,7 @@ console.log(pScore + cScore)
 
 if (cChoice === "rock" && pChoice === "paper") {
     pWin();
-    console.log("You Win!");
+    alert("You Win!");
 
 }
 if (cChoice === "rock" && pChoice === "scissors") {
@@ -129,4 +126,3 @@ if (cChoice === "scissors" && pChoice === "rock") {
 
 }
 nextRound = confirm("Do you want to carry on playing?")
-}
