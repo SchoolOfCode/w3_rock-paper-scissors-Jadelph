@@ -81,7 +81,7 @@ console.log(pScore + cScore)
 
 if (cChoice === "rock" && pChoice === "paper") {
     pWin();
-    alert("You Win!");
+    console.log("You Win!");
 
 }
 if (cChoice === "rock" && pChoice === "scissors") {
