@@ -12,6 +12,8 @@ let cLose = 0;
 let pDraw = 0;
 let cDraw = 0;
 
+let nextRound = true
+
 let i;
 let totalGames = 0;
 
@@ -33,7 +35,10 @@ if (startGame == true) {
 }
 
 
+while (nextRound === true) {
 
+    prompt("Please enter your choice rock,paper, scissors")
+}
 
 
 
@@ -122,4 +127,6 @@ if (cChoice === "scissors" && pChoice === "rock") {
     pWin();
     console.log("You Win!")
 
+}
+nextRound = confirm("Do you want to carry on playing?")
 }
