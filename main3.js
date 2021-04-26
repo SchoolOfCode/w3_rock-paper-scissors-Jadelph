@@ -60,10 +60,10 @@ let result = 0;
 function getWinner() {
 
     if (cChoice === "rock" && pChoice === "paper") {
-        result++;
+        console.log(result++);
 
     } else if (cChoice === "rock" && pChoice === "scissors") {
-        result--;
+        console.log(result--);
 
     } else if (cChoice === "rock" && pChoice === "rock") {
 
@@ -76,21 +76,21 @@ function getWinner() {
 
 
     } else if (cChoice === "paper" && pChoice === "scissors") {
-        result++;
+        console.log(result++);
 
 
     } else if (cChoice === "scissors" && pChoice === "scissors") {
 
 
     } else if (cChoice === "scissors" && pChoice === "paper") {
-        result--;
+        console.log(result--);
 
 
     } else if (cChoice === "scissors" && pChoice === "rock") {
-        result++;
+        console.log(result++);
 
 
 
     }
-    console.log(result);
+
 }
