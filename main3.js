@@ -34,45 +34,65 @@ We will hard-code each move in variables so that we can check our game logic,
 
 IF STATEMENTS */
 
+/*Take the if statements that you've written and tested and put them into a function. The variables from before should now be taken in as parameters so that you can call the function with any two moves. Instead of printing the result to the console, the function should return:
 
+- `1` if player1 wins
+- `0` if it is a draw
+- `-1` if player1 loses (player2 wins)
 
-if (cChoice === "rock" && pChoice === "paper");
-result = ("You win!")
+The function should be able to be used like so:
 
-
-
-if (cChoice === "rock" && pChoice === "scissors") {
-    console.log(
-        "Computer Wins!")
+```js
+function getWinner(player1, player2) {
+  // code goes here...
 }
 
+let result = getWinner("rock", "paper");
+```
 
-if (cChoice === "rock" && pChoice === "rock") {
-    console.log("Its a draw")
+This will be deemed as complete when the function can be called with any combination of valid moves and returns the appropriate number.
+*/
 
-}
+function getWinner() {
 
-if (cChoice === "paper" && pChoice === "paper") {
-    console.log("Its a Draw")
+    if (cChoice === "rock" && pChoice === "paper") {
+        console.log("You win!")
+    }
 
-}
-if (cChoice === "paper" && pChoice === "rock") {
-    console.log("Computer Wins!")
 
-}
-if (cChoice === "paper" && pChoice === "scissors") {
-    console.log("You Win!")
 
-}
-if (cChoice === "scissors" && pChoice === "scissors") {
-    console.log("ITS A DRAW")
+    if (cChoice === "rock" && pChoice === "scissors") {
+        console.log("Computer Wins!")
+    }
 
-}
-if (cChoice === "scissors" && pChoice === "paper") {
-    console.log("Computer Wins!")
 
-}
-if (cChoice === "scissors" && pChoice === "rock") {
-    console.log("You Win!")
+    if (cChoice === "rock" && pChoice === "rock") {
+        console.log("Its a draw")
 
+    }
+
+    if (cChoice === "paper" && pChoice === "paper") {
+        console.log("Its a Draw")
+
+    }
+    if (cChoice === "paper" && pChoice === "rock") {
+        console.log("Computer Wins!")
+
+    }
+    if (cChoice === "paper" && pChoice === "scissors") {
+        console.log("You Win!")
+
+    }
+    if (cChoice === "scissors" && pChoice === "scissors") {
+        console.log("ITS A DRAW")
+
+    }
+    if (cChoice === "scissors" && pChoice === "paper") {
+        console.log("Computer Wins!")
+
+    }
+    if (cChoice === "scissors" && pChoice === "rock") {
+        console.log("You Win!")
+
+    }
 }
