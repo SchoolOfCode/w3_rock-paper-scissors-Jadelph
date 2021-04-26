@@ -60,7 +60,7 @@ let result = 0;
 function getWinner() {
 
     if (cChoice === "rock" && pChoice === "paper") {
-        result + 1;
+        result++;
 
     } else if (cChoice === "rock" && pChoice === "scissors") {
         result--;
