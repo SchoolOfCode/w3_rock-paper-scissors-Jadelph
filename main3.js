@@ -54,6 +54,7 @@ TASK 2 ADD 1 0 -1 TO RESULT AND CONSOLE LOG RESULT
 - `1` if player1 wins
 - `0` if it is a draw
 - `-1` if player1 loses (player2 wins)*/
+let pChoice = prompt("please enter rock paper or scissors")
 
 let result = 0;
 
