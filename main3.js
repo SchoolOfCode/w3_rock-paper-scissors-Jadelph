@@ -54,11 +54,38 @@ TASK 2 ADD 1 0 -1 TO RESULT AND CONSOLE LOG RESULT
 - `1` if player1 wins
 - `0` if it is a draw
 - `-1` if player1 loses (player2 wins)*/
-let pChoice = prompt("please enter rock paper or scissors")
+
+//*Task 4: Computer Player
+
+/*Task 4: Computer Player
+
+Write a
+
+function that generates a random computer move.Use that
+
+function to make a dynamic game where the computer move is randomly chosen every time instead of being hard - coded.
+
+<
+details >
+    <
+    summary > Hint < /summary>
+`Math.random()`
+might be useful!
+    <
+    /details>*/
+
+let pChoice = prompt("please enter rock paper or scissors");
+
+let compChoice = ["rock", "paper", "scissors"];
+
+let choose = Math.floor(Math.random() * compChoice.length);
+cChoice = (choose, compChoice[choose]);
 
 let result = 0;
 
-function getWinner() {
+
+
+function getWinner(cChoice, pChoice) {
 
     if (cChoice === "rock" && pChoice === "paper") {
         console.log(result++);
