@@ -4,19 +4,33 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Rock, Paper, Scissors</title>
+
+    <title>Rock Paper Scissors</title>
 
 </head>
 
 <body>
-    <h1> Rock , Paper , Scissors !!! </h1>
-    <p>
-        <i class="fas fa-hand-rock-o "></i>
-        <i class="fas fa-hand-paper-o "></i>
-        <i class="fas fa-hand-scissors-o "></i></p>
 
-    <script src="main3.js"></script>
+    <div id="game">
+
+
+        <h1 class="titlerps"> Rock Paper Scissors </h1>
+        <div class="score-board">
+            <div id="player-score-count" class="identify">You</div>
+            <div id="computer-score-count" class="identify-comp">Computer</div>
+
+
+            <div class=" makebutton ">
+
+                <img data-type="rock " class=" button " src="rock-paper-scissors-line-icons3rock.png " alt="Rock " />
+                <img data-type="paper " class=" button " src="rock-paper-scissors-line-iconspaper.png " alt="Paper " />
+                <img data-type="scissors " class="button " src="rock-paper-scissors-line-iconsscissor.png " alt="Scissors " />
+
+            </div>
+            <div class="output "></div>
+        </div>
+
+        <script src="main.js "></script>
 </body>
 
 

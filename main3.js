@@ -73,52 +73,35 @@ details >
 might be useful!
     <
     /details>*/
+let PlayerScore = 0
+let computerScore = 0
+let gamesPlayed = 0
 
-let pChoice = prompt("please enter rock paper or scissors");
 
-let compChoice = ["rock", "paper", "scissors"];
-
-let choose = Math.floor(Math.random() * compChoice.length);
-cChoice = (choose, compChoice[choose]);
-
-let result = 0;
+let playerMove = prompt("please enter rock paper or scissors");
 
 
 
-function getWinner(cChoice, pChoice) {
-
-    if (cChoice === "rock" && pChoice === "paper") {
-        console.log(result++);
-
-    } else if (cChoice === "rock" && pChoice === "scissors") {
-        console.log(result--);
-
-    } else if (cChoice === "rock" && pChoice === "rock") {
-
-
-    } else if (cChoice === "paper" && pChoice === "paper") {
-
-
-    } else if (cChoice === "paper" && pChoice === "rock") {
-        result--;
-
-
-    } else if (cChoice === "paper" && pChoice === "scissors") {
-        console.log(result++);
-
-
-    } else if (cChoice === "scissors" && pChoice === "scissors") {
-
-
-    } else if (cChoice === "scissors" && pChoice === "paper") {
-        console.log(result--);
-
-
-    } else if (cChoice === "scissors" && pChoice === "rock") {
-        console.log(result++);
-
-
-
-    }
-
+//create a funtion to generate player move
+function generateComputerMove() {
+    let computerChoice = ["rock", "paper", "scissors"];
+    let computerRandomChoice = Math.floor(Math.random() * 3);
+    return computerChoice[computerRandomChoice];
 }
+generateComputerMove();
+//create a function for player win 
+function getWinner(playerMove, computerMove) {
+
+    if (playerMove === "rock" && computerMove === "scissors" || playerMove === "paper" && computerMove === "rock" || playerMove === "scissors" && computerMove === "paper") {
+        // Increase player score 
+        playerScore++;
+        // player wins alert
+        alert("You Win!");
+    } else if (playerMove === "scissors" && computerMove === "rock" || playerMove === "rock" && computerMove === "paper" || playerMove === "paper" && computerMove === "scissors"); {
+        computerScore++;
+        alert("Computer Wins!");
+    }
+}
+
+
+getWinner()

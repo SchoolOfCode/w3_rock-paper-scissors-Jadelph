@@ -1,4 +1,24 @@
-h1 {
-    font-size: xx-large;
-    color: blue
-}
+    .makebutton {
+        display: flex;
+        justify-content: center;
+        font-size: 2rem
+    }
+    
+    .button {
+        width: 15rem;
+        margin: 20px;
+        cursor: pointer;
+    }
+    
+    .titlerps {
+        font-size: 400%;
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-style: normal;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    body {
+        background-color: #f8f5f1;
+    }
