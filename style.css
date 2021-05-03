@@ -17,11 +17,11 @@
     }
     
     body {
-        background-color: #f8f5f1;
+        background-color: lavenderblush
     }
     
     .score-board {
-        border: 5px solid #d8ac9c;
+        border: 5px solid;
         border: radius 4px;
         width: 200px;
         margin: 20px auto;
@@ -31,8 +31,6 @@
     }
     
     .identify {
-        background-color: indianred;
-        color: antiquewhite;
         font-size: 18px;
         padding: 2px 10px;
     }
@@ -40,11 +38,17 @@
     #player-score-count {
         position: absolute;
         top: 15px;
-        left: -40px;
+        left: -10px;
     }
     
     #computer-score-count {
         position: absolute;
         top: 15px;
-        right: -50px;
+        right: -9px;
+    }
+    
+    .announce-winner {
+        font: size 30px;
+        text-align: center;
+        font-size: xx-large;
     }

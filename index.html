@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
-
     <title>Rock Paper Scissors</title>
 
 </head>
@@ -23,12 +22,17 @@
 
         <div class=" makebutton ">
 
-            <img data-type="rock " class=" button " src="rock-paper-scissors-line-icons3rock.png " alt="Rock " />
-            <img data-type="paper " class=" button " src="rock-paper-scissors-line-iconspaper.png " alt="Paper " />
-            <img data-type="scissors " class="button " src="rock-paper-scissors-line-iconsscissor.png " alt="Scissors " />
+
+            <div id="rock"><img class=" button " src="rock-paper-scissors-line-icons3rock.png " alt="Rock" /> </div>
+            <div id="paper">
+                <img class=" button " src="rock-paper-scissors-line-iconspaper.png " alt="Paper " /></div>
+            <div id="scissors"><img class="button" src="rock-paper-scissors-line-iconsscissor.png " alt="Scissors" /></div>
 
         </div>
-        <div class="output "></div>
+        <div class="announce-winner ">
+            <p> Paper beats rock,YOU WIN!</p>
+        </div>
+
     </div>
 
     <script src="main.js "></script>

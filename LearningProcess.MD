@@ -10,3 +10,4 @@ $ symbol to get element by id $("id_of_element") and the || for the use of or .
 I also learnt about the use of "Data-type" for customised data and reinforced the flex knowledge I had learnt previously. 
 syntax <element data-*="somevalue"> 
 Span ID to mark part of a text, easily styled with CSS similar to<div> but used inline opposed to block.
+Setting up the Dom with consts at the beginning of main.js 
