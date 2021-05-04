@@ -7,29 +7,17 @@ We will hard-code each move in variables so that we can check our game logic,
  Possible combinations for the game 
 
 **Computer rock combinations ** 
-
  // IF COMPUTER ROCK && PLAYER SCISSOR === COMPUTER WINS
-
 //IF COMPUTER ROCK && PLAYER  PAPER === PLAYER WINS
-
 // IF COMPUTER ROCK && PLAYER ROCK === DRAW 
-
 **Computer scissors combinations** 
-
 //IF COMPUTER SCISSOR && PLAYER ROCK === COMPUTER WINS
-
 //IF COMPUTER SCISSOR &&PLAYER PAPER === PLAYER WINS
-
 // IF COMPUTER SCISSOR && PLAYER SCISSOR === DRAW
-
 ***Computer Paper Combinations***
-
-
 //IF COMPUTER PAPER && PLAYER SCISSOR === PLAYER WINS 
-
 // IF COMPUTER PAPER&& PLAYER ROCK === COMPUTER WINS
-
-// IF COMPUTER PAPER&& PLAYER PAPER === DRAW
+/ IF COMPUTER PAPER&& PLAYER PAPER === DRAW
 
 
 IF STATEMENTS */
