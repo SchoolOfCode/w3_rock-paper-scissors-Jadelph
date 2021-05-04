@@ -5,10 +5,13 @@ I initialy began creating the rock paper scissors game by creating all of my var
 
 Due to this i restarted the game and used less variables and worked through the tasks I kept getting stuck on alerting the result of the game.
 
-I worked through a tutorial to learn the best way to create this game and learnt about the use of the 
-$ symbol to get element by id $("id_of_element") and the || for the use of or . 
+I worked through a tutorial to learn the best way to create this game.. 
 I also learnt about the use of "Data-type" for customised data and reinforced the flex knowledge I had learnt previously. 
 syntax <element data-*="somevalue"> 
 Span ID to mark part of a text, easily styled with CSS similar to<div> but used inline opposed to block.
-Setting up the Dom with consts at the beginning of main.js.
-I learnt that Jquery is becoming less and less used in the industry and best practice would be to avoid it, this was through research and then confirmed with my mentor team. 
+Setting up the Dom with variables at the beginning of main.js to use for later on. 
+I then learnt that Jquery is becoming less used in the industry and best practice would be to avoid it, this was through research and then confirmed with my mentor team. 
+
+I found it helpful to comment on what certain code does that I have learnt through research especially if it is code that is new to me. 
+
+For my next task my plan is to prepare better for the task ahead, work on using CSS and spend more time on this to create a visually appealing end product rather than just having a basic one. Leave more time for debugging  on the completion of the task as I still have the playerScore only working sometimes. (will research this further). 
